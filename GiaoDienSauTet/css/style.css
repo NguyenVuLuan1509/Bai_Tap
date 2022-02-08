@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: violet;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* sử dụng cho IE8 trở về trước */ 
+}
+
+.nav{
+    background: #444444;
+    height: 70px;
+    width: 100%;
+}
+
+.contain{
+    height: 65px;
+    width: 100%;
+}
+
+.landing {
+    background: url('../img/showcase.jpg');
+    height: 762px;
+    opacity: 1;
+    clear: both;
+}
+
+.logo1{
+    
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.namelogo{
+    font-size: 36px;
+}
+
+.list{
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: 25px;
+}
+.list ul{
+    float: right;
+    list-style: none;
+}
+.list ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.list ul li a:hover{
+    color: violet;
+}
+
+.wrapper{
+    text-align: center;
+}
+.contain1{
+    /* background-color: tomato; */
+    display: inline-block;
+    margin-top: 160px;
+    /* margin-top: 100px; */
+}
+
+.button1 {
+    background-color: #3366CC; 
+    color: black; 
+    border: 1px solid #333333;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    /* color: white; */
+  }
+
